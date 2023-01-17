@@ -83,7 +83,10 @@ function Posts() {
         <div className="cards">
           {fresh.map((fresh)=>{
             return(
-              <div className="card">
+              <div onClick={()=>{
+               setPostDetails(fresh)
+                history.push('/view')
+            }} className="card">
             <div className="favorite">
               <Heart></Heart>
             </div>
