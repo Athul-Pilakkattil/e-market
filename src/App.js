@@ -1,6 +1,6 @@
 import React,{useContext,useEffect} from 'react';
 import './App.css';
-import {BrowserRouter,Route} from 'react-router-dom'
+import {HashRouter,Route} from 'react-router-dom'
 import { getAuth ,onAuthStateChanged} from "firebase/auth"
 
 /**
@@ -41,7 +41,7 @@ function App() {
   
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
       <SearchCont>
       <Post>
 
@@ -75,7 +75,7 @@ function App() {
 
       </SearchCont>
       
-      </BrowserRouter>
+      </HashRouter>
       
       
     </div>
