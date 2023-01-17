@@ -35,4 +35,17 @@
     justify-content: center;
     cursor: pointer;
   }
+
+  .loading{
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+
+  .logout-btn{
+    cursor: pointer;
+  }
+  .market-logo{
+    margin-left: 43px;
+  }
+
   

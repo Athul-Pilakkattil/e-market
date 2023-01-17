@@ -114,6 +114,7 @@
 
 .loginPage a{
   text-decoration: none;
+  height: 48px;
 }
 
 .sellMenu {
@@ -161,4 +162,27 @@
   .sellMenu {
     display: none;
   }
+}
+
+.loading{
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.user-name{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logout-btn{
+  font-weight: bold;
+  font-size: 16;
+}
+
+.market-logo{
+  color: #002f34;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: cursive;
+  
 }
